@@ -10,7 +10,7 @@ then
 	mkdir $path
 fi
 cp $ex $path
-git clone git@github.com:verdierm/lategame_logs.git $path/logs > /dev/null 2>&1
+#git clone git@github.com:verdierm/lategame_logs.git $path/logs > /dev/null 2>&1
 if [[ ! -a $file ]]
 then
 	echo "0" > $file

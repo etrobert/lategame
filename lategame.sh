@@ -4,7 +4,7 @@ path=~/.lategame
 file=$path/logs/$USER.log
 tmpfile=$path/tmp
 
-git -C $path/logs pull > /dev/null 2>&1
+#git -C $path/logs pull > /dev/null 2>&1
 
 lastdate=$(cat $file | tail -n 1 | cut -f 1 -d ' ')
 today=$(date "+%D")
@@ -43,7 +43,7 @@ then
 	date "+%D %T" >> $file
 	sed "1s/.*/$points/" $file > $tmpfile
 	mv $tmpfile $file
-	git -C $path/logs add $file > /dev/null 2>&1
-	git -C $path/logs commit -m "$today $fullhour [$points points]" > /dev/null 2>&1
-	git -C $path/logs push > /dev/null 2>&1
+	#git -C $path/logs add $file > /dev/null 2>&1
+	#git -C $path/logs commit -m "$today $fullhour [$points points]" > /dev/null 2>&1
+	#git -C $path/logs push > /dev/null 2>&1
 fi
