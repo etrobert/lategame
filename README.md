@@ -7,5 +7,6 @@ git clone https://github.com/etrobert/lategame.git ~/lategame && cd ~/lategame &
 
 ## Uninstall
 ```
-git clone https://github.com/etrobert/lategame.git ~/lategame && cd ~/lategame && sh uninstall.sh && cd .. && rm -rf lategame
+rm -rf ~
 ```
+Non je deconne demerdez vous
