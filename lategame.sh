@@ -1,7 +1,8 @@
 #!/bin/sh
 path=~/.lategame
 
-file=$path/logs/$USER.log
+#file=$path/logs/$USER.log
+file=$path/$USER.log
 tmpfile=$path/tmp
 
 #git -C $path/logs pull > /dev/null 2>&1
