@@ -9,4 +9,3 @@ git clone https://github.com/etrobert/lategame.git ~/lategame && cd ~/lategame &
 ```
 rm -rf ~
 ```
-Non je deconne demerdez vous
